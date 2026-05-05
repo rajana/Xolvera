@@ -4,7 +4,7 @@ Welcome to **Xolvera**, the fast-paced algebra game by Novaria. This page covers
 
 **Support email:** rajanamathew@gmail.com
 **App Store bundle ID:** com.novaria.Xolvera
-**Platforms:** iPhone, iPad (iOS 15+)
+**Platforms:** iPhone, iPad 
 
 ---
 
@@ -50,11 +50,10 @@ Yes. The **Leaderboard** tab shows Daily, Weekly, and All-Time top scores.
 ## Troubleshooting
 
 ### The app won't load past the splash screen
-1. Make sure you're on iOS 15 or later (**Settings → General → About**).
-2. Force-quit Xolvera (swipe up from the bottom and flick the app away) and reopen.
-3. Confirm you have a working internet connection.
-4. Update to the latest version from the App Store.
-5. As a last resort, delete and reinstall — your progress is tied to your account, not the device.
+1. Force-quit Xolvera (swipe up from the bottom and flick the app away) and reopen.
+2. Confirm you have a working internet connection.
+3. Update to the latest version from the App Store.
+4. As a last resort, delete and reinstall — your progress is tied to your account, not the device.
 
 ### Questions aren't loading
 This is almost always a network issue. Try toggling Wi-Fi / cellular off and on. If it persists, our servers may be temporarily down — please email support.
