@@ -26,12 +26,14 @@ We collect only the information needed to operate the game.
 ### 1.3 Information collected automatically
 - **Authentication token** — a sign-in token issued after you log in, stored securely on your device using Apple Keychain (iOS) or Android Keystore (Android) via `expo-secure-store`.
 - **Basic technical data** — standard request metadata (IP address, timestamps) processed by our hosting provider for security and reliability.
+- **Crash logs and diagnostic telemetry** — when the Xolvera Game API encounters errors or performance issues, server-side stack traces, request timings, error messages, and standard request metadata (IP address, timestamps) are sent to **Microsoft Azure Application Insights** so we can detect and fix bugs. See Section 5 for details and retention.
 
 ### 1.4 What we do **not** collect
 - We do **not** collect your real name, address, phone number, or payment information.
 - We do **not** access your contacts, photos, microphone, camera, location, or health data.
-- We do **not** use third-party advertising or analytics SDKs.
+- We do **not** use third-party advertising SDKs.
 - We do **not** track you across other apps or websites.
+- We do **not** use any analytics SDK inside the mobile app itself; diagnostic telemetry is collected only on our backend (see Section 5).
 
 ---
 
@@ -81,11 +83,18 @@ Xolvera relies on the following third-party services to operate. Data described 
 - **Data processed:** Email address, display name, server-issued account identifier, authentication tokens, game answers, scores, session metadata, and standard request metadata (IP address, timestamps).
 - **Privacy policy:** https://privacy.microsoft.com/privacystatement
 
+### Microsoft Azure Application Insights
+- **Provider:** Microsoft Corporation
+- **Purpose:** Collects crash logs and diagnostic / performance telemetry from the Xolvera Game API so we can detect and fix bugs and monitor service health.
+- **Data processed:** Server-side stack traces, exception details, request and dependency timings, error messages, performance counters, IP addresses, and standard request metadata. We do not deliberately attach personal identifiers to telemetry; however, when an error occurs while servicing your request, the telemetry record may include the API path you called.
+- **Retention:** Up to 90 days (Application Insights default), after which records are automatically purged.
+- **Privacy policy:** https://privacy.microsoft.com/privacystatement
+
 ### Apple Keychain / Android Keystore (via `expo-secure-store`)
 - **Purpose:** Securely stores your authentication token on your device.
 - **Data processed:** Authentication token only. Tokens never leave your device except as a Bearer header sent to the Xolvera Game API.
 
-We do **not** use third-party advertising networks, analytics SDKs, crash-reporting SDKs, or cross-app tracking services.
+We do **not** use third-party advertising networks, in-app analytics SDKs, in-app crash-reporting SDKs, or cross-app tracking services. The telemetry described above is collected only on our backend, not from the mobile app itself.
 
 ---
 
