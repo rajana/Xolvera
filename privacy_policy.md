@@ -1,6 +1,6 @@
 # Xolvera — Privacy Policy
 
-**Last updated:** 2026-05-05
+**Last updated:** 2026-05-06
 
 This Privacy Policy explains what data Xolvera ("the app", "we", "us") collects, how it is used, and the choices you have.
 
@@ -91,7 +91,9 @@ We do **not** use third-party advertising networks, analytics SDKs, crash-report
 
 ## 6. Data retention
 
-We keep your account data for as long as your account is active. If you ask us to delete your account, we permanently remove your profile, scores, and answer history within 7 days.
+We keep your account data for as long as your account is active. You can delete your account at any time from inside the app — open the **Profile** tab and tap **Delete Account** at the top of the screen. Once confirmed, we immediately and permanently remove your profile, scores, progress, and answer history. The deletion is irreversible.
+
+If you cannot sign in to use the in-app option, email **rajanamathew@gmail.com** from your registered address with the subject **"Delete my account"** and we will remove your data within 7 days.
 
 ---
 
@@ -100,7 +102,7 @@ We keep your account data for as long as your account is active. If you ask us t
 You can:
 - **Access** the data we hold about you — email rajanamathew@gmail.com.
 - **Correct** your display name — email us if you need it changed.
-- **Delete** your account and all associated data — email rajanamathew@gmail.com from your registered address with the subject **"Delete my account"**.
+- **Delete** your account and all associated data directly from the app: **Profile → Delete Account**. Deletion is immediate and permanent. If you cannot sign in, email rajanamathew@gmail.com from your registered address with the subject **"Delete my account"** as a fallback.
 
 If you are in the EU/UK, you also have rights under GDPR (including the right to object to processing and to lodge a complaint with your local data protection authority).
 If you are in California, you have rights under CCPA (including the right to know and the right to delete). We do not sell personal information.
