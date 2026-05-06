@@ -37,7 +37,15 @@ Xolvera accepts the canonical form of an answer (e.g. `916` rather than `(31*31)
 Tap the **Profile** tab. Display-name editing is on the roadmap — for now, contact support if you need it changed.
 
 ### How do I delete my account / data?
-Email **rajanamathew@gmail.com** from the address tied to your account with the subject **"Delete my account"**. We'll permanently remove your profile, scores, and answer history within 7 days.
+You can delete your account directly from the app:
+
+1. Open the **Profile** tab.
+2. Tap **Delete Account** at the top-left of the header.
+3. Confirm twice. Your profile, scores, progress, and answer history will be permanently removed immediately.
+
+This is irreversible — once deleted, the data cannot be recovered.
+
+If you can't sign in to use the in-app option, email **rajanamathew@gmail.com** from the address tied to your account with the subject **"Delete my account"** and we'll remove it for you within 7 days.
 
 ### Does Xolvera work offline?
 No — Xolvera fetches questions and submits answers through our servers, so an active internet connection is required.
