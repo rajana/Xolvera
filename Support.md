@@ -10,22 +10,32 @@ Welcome to **Xolvera**, the fast-paced algebra game by Novaria. This page covers
 
 ## Getting started
 
-1. Download Xolvera from the App Store.
-2. Open the app and tap **Create one** to register, or **Sign In** if you already have an account.
-3. To register, enter your email and a display name. To sign in, just enter the email you registered with.
-4. Pick a topic (Equations, Factoring, Identities, etc.) and start playing.
+1. Download Xolvera from the App Store or Google Play.
+2. Open the app — you'll land on the **Topics** tab right away. No account needed to browse or play.
+3. Pick a topic (Equations, Factoring, Identities, etc.) and start playing as a guest.
+4. To save your scores, climb the leaderboard, or track your progress over time, tap **Sign In** (top-right of the Profile tab) and either create an account or sign in.
 
 You earn points by answering algebra questions correctly within the time limit. Difficulty scales as you improve.
+
+### Guest play vs. signed-in play
+- **Guest** — full access to all topics and gameplay. Scores are **not saved** and you can't view the leaderboard or your history.
+- **Signed in** — every score is saved, your progress is tracked per topic, and you appear on the daily / weekly / all-time leaderboards.
 
 ---
 
 ## Frequently asked questions
+
+### Do I need an account to play?
+No. You can browse all topics and play full sessions as a guest. An account is only required for the **Profile** and **Leaderboard** tabs, which show data tied to a specific user (your scores, your history, your rank).
 
 ### How does sign-in work?
 Xolvera uses **email-only sign-in** — there's no password to remember and no verification code. Sign in with the same email you used to register.
 
 ### I get "This email isn't registered" when signing in.
 You haven't created an account with that email yet. Tap **Create one** on the sign-in screen and register first.
+
+### Are guest scores saved if I sign in later?
+No. Scores from guest sessions are not saved on our servers, so they cannot be migrated when you create an account. Sign in *before* playing if you want to keep the score.
 
 ### My answer was marked incorrect, but I think it's right.
 Xolvera accepts the canonical form of an answer (e.g. `916` rather than `(31*31)−45`). If you believe a specific question is genuinely scored wrong, please email us with:
@@ -51,7 +61,7 @@ If you can't sign in to use the in-app option, email **rajanamathew@gmail.com** 
 No — Xolvera fetches questions and submits answers through our servers, so an active internet connection is required.
 
 ### Is there a leaderboard?
-Yes. The **Leaderboard** tab shows Daily, Weekly, and All-Time top scores.
+Yes. The **Leaderboard** tab shows Daily, Weekly, and All-Time top scores. You need to be signed in to view it and to appear on it.
 
 ---
 
